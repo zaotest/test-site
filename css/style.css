@@ -387,11 +387,7 @@ body {
   margin-bottom: 0;
 }
 
-@media only screen and (max-width:526px) {
-  .notice_desc_wrap_right{
-    width: 79%;
-  }
-}
+
 /*
 .notice_desc_wrap_right ul li {
   cursor: pointer;
@@ -489,7 +485,7 @@ body {
   margin-bottom: 40px;
 }
 .notice_desc_wrap_right ul li:hover {
-  background-color: #802511;
+ 
   color: #ffffff;
   font-weight: bold;
   -webkit-transition: 0.4s;
