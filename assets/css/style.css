@@ -1,16 +1,22 @@
 /*==================================================================
+幅
+==================================================================*/
+
+/*==================================================================
+余白
+==================================================================*/
+
+/*==================================================================
 フォント
 ==================================================================*/
-body {
-  font-family: "Kosugi Maru", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
+
 /*==================================================================
 色
 ==================================================================*/
+
 body {
 	color: #1e1e1e;
+	font-family: "Noto Sans JP", sans-serif;
 }
 
 body.js-fixed {
@@ -183,6 +189,7 @@ a:hover {
 	padding-top: 4.375rem;
 }
 
+
 /*スマホのみ改行*/
 .br-sp {
     display: none;
@@ -194,7 +201,8 @@ a:hover {
     }
 }
 
-/* 新ボタン設定 */
+/*新ボタン設定ここから*/
+
 .button_solid011{
 	display: flex;
 	margin-top: 68px;
@@ -205,7 +213,7 @@ a:hover {
 	}
 }
 .button_solid011 a {
-    background: #ffb7db;
+    background: #9acd32;
     position: relative;
     display: inline-block;
     width: 100%;
@@ -221,7 +229,7 @@ a:hover {
     font-weight: 600;
     flex-direction: column;
     border-radius: 8px;
-    border-bottom: solid 5px #ff99cc;
+    border-bottom: solid 5px #669933;
     line-height: 1.35;
     letter-spacing: 0.15em;
 
@@ -231,7 +239,7 @@ a:hover {
 	}
 }
 .button_solid011 a:nth-child(n+4){
-	padding-top: 17px;
+	padding-top: 14px;
 
 }
 .button_solid011 a span {
@@ -244,7 +252,7 @@ a:hover {
     filter: drop-shadow(0px 1px 2px #aaa);
     padding: 5px 0;
     font-size: 0.8rem;
-    color: #ff3838;
+    color: #666666;
     border-radius: 5px;
 }
 .button_solid011 a span:after {
@@ -257,19 +265,11 @@ a:hover {
     border-top: 5px solid #ffffff;
 }
 .button_solid011 a:hover {
-    border-bottom: solid 2px #ff99cc;
+    border-bottom: solid 2px #669933;
     transform: translateY(3px);
 }
 
-
-
-
-
-
-
-
-
-
+/*新ボタン設定終*/
 
 .button {
 	display: inline-block;
@@ -377,7 +377,7 @@ a:hover {
 }
 
 .contact__body a {
-	color: rgb(249 0 124);
+	color: #9acd32;
 	font-size: 1.5rem;
 	font-weight: 700;
 	letter-spacing: 0.1em;
@@ -387,7 +387,20 @@ a:hover {
 	width: -moz-fit-content;
 	width: fit-content;
 }
-
+/*
+.contact__body a:first-child::before {
+	background-image: url(../images/common/icon-tel.svg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	content: "";
+	height: 1.75rem;
+	left: 0;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 1.0625rem;
+}
+*/
 .contact__body p:nth-of-type(2) {
 	font-weight: 500;
 	letter-spacing: 0.1em;
@@ -490,9 +503,9 @@ a[href^="tel:"] {
 }
 
 .information__list {
-	-o-border-image: linear-gradient(to left, #ff99cc, #F2E909) 1;
+	-o-border-image: linear-gradient(to left, #008000, #F2E909) 1;
 	align-items: center;
-	border-image: linear-gradient(to left, #ff99cc, #F2E909) 1;
+	border-image: linear-gradient(to left, #008000, #F2E909) 1;
 	border-top: 1px solid;
 	display: flex;
 	padding-bottom: 1.9375rem;
@@ -500,9 +513,9 @@ a[href^="tel:"] {
 }
 
 .information__list:last-child {
-	-o-border-image: linear-gradient(to left, #ff99cc, #F2E909) 1;
+	-o-border-image: linear-gradient(to left, #008000, #F2E909) 1;
 	border-bottom: 1px solid;
-	border-image: linear-gradient(to left, #ff99cc, #F2E909) 1;
+	border-image: linear-gradient(to left, #008000, #F2E909) 1;
 }
 
 .information__list-title {
@@ -532,7 +545,7 @@ a[href^="tel:"] {
 }
 
 .is-blue {
-	color: rgb(249 0 124);
+	color: #9acd32;
 	font-size: 1.25rem;
 	font-weight: 700;
 }
@@ -549,7 +562,7 @@ a[href^="tel:"] {
 }
 
 .information__right-title {
-	color: rgb(249 0 124);
+	color: #9acd32;
 	font-size: 1.5rem;
 	font-weight: 700;
 	letter-spacing: 0.15em;
@@ -622,13 +635,13 @@ a[href^="tel:"] {
 
 .right__border{
 	margin:30px 0 30px 0;
-	border-image: linear-gradient(to left, #ff99cc, #F2E909) 1;
+	border-image: linear-gradient(to left, #008000, #F2E909) 1;
 	border-top: 1px;
 }
 
 .right__border__slidertop{
 	margin:45px 6%;
-	border-image: linear-gradient(to left, #ff99cc, #F2E909) 1;
+	border-image: linear-gradient(to left, #008000, #F2E909) 1;
 	border-top: 1px;
 }
 
@@ -721,7 +734,7 @@ a[href^="tel:"] {
 }
 
 .section-title__ja {
-	color: rgb(249 0 124);
+	color: #9acd32;
 	font-size: 2.8125rem;
 	font-weight: 700;
 	letter-spacing: 0.05em;
@@ -729,7 +742,7 @@ a[href^="tel:"] {
 
 .section-title__ja::before {
 	background: linear-gradient(to bottom, transparent 71%, #FFF500, 72%, #FFF500 100%);
-	color: rgb(249 0 124);
+	color: #696969;
 	content: attr(data-en);
 	display: block;
 	font-size: 1.125rem;
@@ -1006,197 +1019,126 @@ html {
 		font-size: 4.2666666667vw;
 	}
 
+	/* .twitter-timeline {
+		max-width: 350px;
+		height: 548px; 
+	}  */
+
 }
 
 
-/*メインビジュアルの動き設定*/
-/* ===== 全体 ===== */
+/*# sourceMappingURL=style.css.map */
+
+/* =====================
+   メインビジュアル
+===================== */
+
 .mv {
+  width: 100%;
+}
+
+/* 比率固定キャンバス */
+.mv_canvas {
   position: relative;
   width: 100%;
+  aspect-ratio: 1920 / 880;
   overflow: hidden;
 }
+@media (max-width: 768px) {
+  .mv_canvas {
+    aspect-ratio: 780 / 1247;
+  }
+}
 
-/* ===== 背景共通 ===== */
+/* 背景 */
 .bg {
   position: absolute;
-  inset: 0;
-  background-size: cover;
-  background-position: center;
-  animation: zoomFade 24s linear forwards;
-  opacity: 0;
-  transform: scale(1);
-}
-
-
-/* 背景画像（PC） */
-/* 表示タイミングをずらす */
-.bg1 {
-  background-image: url(../images/common/img1_pc.png);
-  animation-delay: 0s;
-}
-
-.bg2 {
-  background-image: url(../images/common/img2_pc.png);
-  animation-delay: 6s;
-}
-
-.bg3 {
-  background-image: url(../images/common/img3_pc.png);
-  animation-delay: 12s;
-}
-
-.bg4 {
-  background-image: url(../images/common/img4_pc.png);
-  animation: zoomFadeLast 24s linear forwards;
-  animation-delay: 18s;
-}
-
-/* ===== フレーム ===== */
-.frame {
-  position: relative;
-  z-index: 2;
-}
-
-.frame img {
   width: 100%;
-  height: auto;
-  display: block;
-}
-
-/* ===== アニメーション ===== */
-@keyframes zoomFade {
-  0% {
-    opacity: 0;
-    transform: scale(1);
-  }
-  10% {
-    opacity: 1;
-  }
-  70% {
-    opacity: 1;
-    transform: scale(1.1);
-  }
-  100% {
-    opacity: 0;
-    transform: scale(1.1);
-  }
-}
-@keyframes zoomFadeLast {
-  0% {
-    opacity: 0;
-    transform: scale(1);
-  }
-  10% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 1;
-    transform: scale(1.1);
-  }
-}
-
-/* ===== スマホ対応 ===== */
-	@media (max-width: 767px) {
-
-	
-  .bg1 { background-image: url(../images/common/img1_sp.png); }
-  .bg2 { background-image: url(../images/common/img2_sp.png); }
-  .bg3 { background-image: url(../images/common/img3_sp.png); }
-  .bg4 { background-image: url(../images/common/img4_sp.png); }  
-}
-
-
-/* ============================
-スライドショーの設定
-=============================== */
-.label_title{
-    height: 53px;
-    margin: 0 auto;
-    width: 100%;
-    text-align: center;
-    color: #075DAD;
-    font-size: 1.5rem;
-    font-weight: 700;
-    letter-spacing: 0.15em;
-    margin-bottom: 130px;
-    margin-top:78px;
-}
-@media (max-width: 768px)  {
-	.label_title{
-		letter-spacing: 0.1em;
-    	font-size: 1rem;
-    	margin:0 auto 14px;
-    	text-align: center;
-    	color: #075DAD;
-	}
-}
-.label_inner_slider {
-  margin: 0 0;
-}
-:root {
-  --img-width: 420px;       /* PC */
-  --img-ratio: 338 / 487;
-  --duration: 60s;          /* スクロール速度 */
-}
-
-/* ===== 共通スライダー設定 ===== */
-.slider {
-  width: 100%;
-  overflow: hidden;
-  margin-bottom: 8px;
-  margin-top: 51px;      /* 上下スライダーの間隔 */
-}
-
-.slider-track {
-  display: flex;
-  width: max-content;
-  animation: scroll var(--duration) linear infinite;
-}
-
-.slider-track img {
-  width: var(--img-width);
-  height: calc(var(--img-width) * var(--img-ratio));
+  height: 100%;
   object-fit: cover;
-  flex-shrink: 0;
 }
 
-/* ===== 上段アニメーション（右から左） ===== */
-@keyframes scroll {
-  0% { transform: translateX(0); }
-  100% { transform: translateX(calc(-1 * var(--img-width) * 3)); }
+/* スマホ画像は最初隠す */
+.sp {
+  display: none;
 }
 
-/* ===== 下段逆方向（左から右） ===== */
-.slider.reverse .slider-track {
-  animation: scroll-reverse var(--duration) linear infinite;
-}
+/* ===== スマホ ===== */
+@media (max-width: 768px) {
 
-@keyframes scroll-reverse {
-  0% { transform: translateX(calc(-1 * var(--img-width) * 3)); }
-  100% { transform: translateX(0); }
-}
+  .pc {
+    display: none;
+  }
 
-/* ===== レスポンシブ ===== */
-@media (max-width: 1024px) {
-  :root { --img-width: 320px; }
+  .sp {
+    display: block;
+  }
+
 }
+/* ===== パーツ共通 ===== */
+.p {
+  position: absolute;
+  width: 12%; /* 好きなサイズに調整OK */
+
+  opacity: 0;
+  transform: translateY(40px);
+  animation: fadeUp 1.6s forwards cubic-bezier(0.22, 1, 0.36, 1);
+
+}
+@media (max-width: 768px) {
+  .p {
+    max-width: none;
+  }
+}
+/* ===== 位置（%指定） ===== */
+.p1 { top: -18%; left: 14%;  animation-delay: 0.3s; width: 69%; }
+.p2 { top: 64%; right: 51%; animation-delay: 1s; width: 46%; }
+.p3 { bottom: 36%; left: 5%; animation-delay: 1.7s; width: 17%; }
+.p4 { top: 57%; left: 60%; animation-delay: 2.4s; width: 23%; }
+.p5 { bottom: -1%; right: 0%; animation-delay: 3.1s; width: 17%; }
 
 @media (max-width: 768px) {
-  :root { --img-width: 300px; }
-  
-  /* 中央寄せ感 */
-  .slider-track {
-    justify-content: center;
-    margin-top: 56px;
-  }
-  .reverse{
-  	margin-top:-39px;
-  	margin-bottom: 90px;
-  }
+ 
+.p1 { top: -5%; left: -15%;  animation-delay: 0.3s; width: 130%; }
+.p2.sp { top: 44%; right: 42%; animation-delay: 1.7s; width: 53%; }
+.p3.sp { bottom: 75%; left: 3%; animation-delay: 1s; width: 34%; }
+.p4 { top: 79%; left: 50%; animation-delay: 2.4s; width: 44%; }
+.p5 { bottom: 20%; right: 0%; animation-delay: 3.1s; width: 42%; }
+
 }
 
-/* ===== SNSフォローしてね ===== */
+/* ===== ふわっと ===== */
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/* =====================
+   メインビジュアル終
+===================== */
+
+/* =====================
+   プレゼンツ設定
+===================== */
+.presents{
+	width: 65%;
+	margin:11px auto 0;
+}
+@media (max-width: 768px) {
+  .presents {
+    width: 90%;
+    margin:14px auto 0;
+  }
+}
+/* =====================
+   プレゼンツ設定終
+===================== */
+
+
+
+
+/* ===== SNSフォロー ===== */
 
 .followme{
 	width: 258px;
@@ -1208,54 +1150,4 @@ html {
 .sns{
 	width: 168px;
 	display: inline-flex;
-}
-
-
-
-/* ===== 桜エリア（ページ全体） ===== */
-.sakura-area {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  pointer-events: none;
-  overflow: hidden;
-  z-index: 999;
-}
-
-/* ===== 花びら ===== */
-.petal {
-  position: absolute;
-  top: -10%;
-  width: clamp(12px, 2vw, 24px);
-  aspect-ratio: 1;
-  background: url("../images/common/petal.png") no-repeat center / contain;
-  animation: fall linear infinite;
-  opacity: 0.7;
-}
-
-/* ===== 6枚バランス配置 ===== */
-.petal:nth-child(1){ left:5%;  animation-duration:16s; animation-delay:0s;}
-.petal:nth-child(2){ left:20%; animation-duration:18s; animation-delay:2s;}
-.petal:nth-child(3){ left:40%; animation-duration:15s; animation-delay:1s;}
-.petal:nth-child(4){ left:60%; animation-duration:17s; animation-delay:3s;}
-.petal:nth-child(5){ left:75%; animation-duration:19s; animation-delay:0s;}
-.petal:nth-child(6){ left:90%; animation-duration:16s; animation-delay:2s;}
-
-/* ===== 落下アニメ ===== */
-@keyframes fall {
-  0% {
-    transform: translateY(0) translateX(0) rotate(0deg);
-    opacity: 0;
-  }
-
-  10% {
-    opacity: 0.7;
-  }
-
-  100% {
-    transform: translateY(110vh) translateX(80px) rotate(360deg);
-    opacity: 0;
-  }
 }
