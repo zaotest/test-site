@@ -1122,13 +1122,13 @@ html {
    プレゼンツ設定
 ===================== */
 .presents{
-	width: 65%;
-	margin:11px auto 0;
+	width: 60%;
+	margin:41px auto 0;
 }
 @media (max-width: 768px) {
   .presents {
-    width: 90%;
-    margin:14px auto 0;
+    width: 96%;
+    margin:29px auto 0;
   }
 }
 /* =====================
