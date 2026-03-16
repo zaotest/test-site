@@ -213,7 +213,7 @@ a:hover {
 	}
 }
 .button_solid011 a {
-    background: #9acd32;
+    background: #164a84;
     position: relative;
     display: inline-block;
     width: 100%;
@@ -224,12 +224,12 @@ a:hover {
     margin: 0 9px;
 
     padding: 25px 25px 10px;
-    color: #1f1f1f;
+    color: #ffffff;
     transition: 0.3s ease-in-out;
     font-weight: 600;
     flex-direction: column;
     border-radius: 8px;
-    border-bottom: solid 5px #669933;
+    border-bottom: solid 5px #223a70;
     line-height: 1.35;
     letter-spacing: 0.15em;
 
@@ -377,7 +377,7 @@ a:hover {
 }
 
 .contact__body a {
-	color: #9acd32;
+	color: #075DAD;
 	font-size: 1.5rem;
 	font-weight: 700;
 	letter-spacing: 0.1em;
@@ -503,9 +503,9 @@ a[href^="tel:"] {
 }
 
 .information__list {
-	-o-border-image: linear-gradient(to left, #008000, #F2E909) 1;
+	-o-border-image: linear-gradient(to left, #0983F3, #F2E909) 1;
 	align-items: center;
-	border-image: linear-gradient(to left, #008000, #F2E909) 1;
+	border-image: linear-gradient(to left, #0983F3, #F2E909) 1;
 	border-top: 1px solid;
 	display: flex;
 	padding-bottom: 1.9375rem;
@@ -513,9 +513,9 @@ a[href^="tel:"] {
 }
 
 .information__list:last-child {
-	-o-border-image: linear-gradient(to left, #008000, #F2E909) 1;
+	-o-border-image: linear-gradient(to left, #0983F3, #F2E909) 1;
 	border-bottom: 1px solid;
-	border-image: linear-gradient(to left, #008000, #F2E909) 1;
+	border-image: linear-gradient(to left, #0983F3, #F2E909) 1;
 }
 
 .information__list-title {
@@ -545,7 +545,7 @@ a[href^="tel:"] {
 }
 
 .is-blue {
-	color: #9acd32;
+	color: #075DAD;
 	font-size: 1.25rem;
 	font-weight: 700;
 }
@@ -562,7 +562,7 @@ a[href^="tel:"] {
 }
 
 .information__right-title {
-	color: #9acd32;
+	color: #075DAD;
 	font-size: 1.5rem;
 	font-weight: 700;
 	letter-spacing: 0.15em;
@@ -635,13 +635,13 @@ a[href^="tel:"] {
 
 .right__border{
 	margin:30px 0 30px 0;
-	border-image: linear-gradient(to left, #008000, #F2E909) 1;
+	border-image: linear-gradient(to left, #0983F3, #F2E909) 1;
 	border-top: 1px;
 }
 
 .right__border__slidertop{
 	margin:45px 6%;
-	border-image: linear-gradient(to left, #008000, #F2E909) 1;
+	border-image: linear-gradient(to left, #0983F3, #F2E909) 1;
 	border-top: 1px;
 }
 
@@ -734,7 +734,7 @@ a[href^="tel:"] {
 }
 
 .section-title__ja {
-	color: #9acd32;
+	color: #075DAD;
 	font-size: 2.8125rem;
 	font-weight: 700;
 	letter-spacing: 0.05em;
@@ -742,7 +742,7 @@ a[href^="tel:"] {
 
 .section-title__ja::before {
 	background: linear-gradient(to bottom, transparent 71%, #FFF500, 72%, #FFF500 100%);
-	color: #696969;
+	color: #075DAD;
 	content: attr(data-en);
 	display: block;
 	font-size: 1.125rem;
@@ -1091,19 +1091,17 @@ html {
   }
 }
 /* ===== 位置（%指定） ===== */
-.p1 { top: -18%; left: 14%;  animation-delay: 0.3s; width: 69%; }
-.p2 { top: 64%; right: 51%; animation-delay: 1s; width: 46%; }
-.p3 { bottom: 36%; left: 5%; animation-delay: 1.7s; width: 17%; }
-.p4 { top: 57%; left: 60%; animation-delay: 2.4s; width: 23%; }
-.p5 { bottom: -1%; right: 0%; animation-delay: 3.1s; width: 17%; }
+.p1 { top: 21%; left: 36%;  animation-delay: 1s; width: 29%; }
+.p2 { top: 4%; right: 71%; animation-delay: 0.3s; width: 26%; }
+.p3 { bottom: 53%; left: 71%; animation-delay: 1.7s; width: 29%; }
+.p4 { top: 60%; left: 71%; animation-delay: 2.4s; width: 27%; }
 
 @media (max-width: 768px) {
  
-.p1 { top: -5%; left: -15%;  animation-delay: 0.3s; width: 130%; }
-.p2.sp { top: 44%; right: 42%; animation-delay: 1.7s; width: 53%; }
-.p3.sp { bottom: 75%; left: 3%; animation-delay: 1s; width: 34%; }
-.p4 { top: 79%; left: 50%; animation-delay: 2.4s; width: 44%; }
-.p5 { bottom: 20%; right: 0%; animation-delay: 3.1s; width: 42%; }
+.p1 { top: 2%; left: 11%;  animation-delay: 0.3s; width: 77%; }
+.p2.sp { top: 44%; right: 42%; animation-delay: 1s; width: 53%; }
+.p3.sp { bottom: 1%; left: 3%; animation-delay: 2.4s; width: 41%; }
+.p4 { top: 60%; left: 40%; animation-delay: 1.7s; width: 56%; }
 
 }
 
@@ -1122,13 +1120,13 @@ html {
    プレゼンツ設定
 ===================== */
 .presents{
-	width: 60%;
+	width: 42%;
 	margin:41px auto 0;
 }
 @media (max-width: 768px) {
   .presents {
     width: 96%;
-    margin:29px auto 0;
+    margin:36px auto 0;
   }
 }
 /* =====================
@@ -1150,4 +1148,112 @@ html {
 .sns{
 	width: 168px;
 	display: inline-flex;
+}
+
+
+/* =====================
+   フェードイン
+===================== */
+.fadein {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: 0.8s;
+}
+
+
+.fadein.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+/* =====================
+   フェードイン終
+===================== */
+
+/* ============================
+スライドショーの設定
+=============================== */
+.label_title{
+    height: 53px;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    color: #075DAD;
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    margin-bottom: 130px;
+    margin-top:78px;
+}
+@media (max-width: 768px)  {
+	.label_title{
+		letter-spacing: 0.1em;
+    	font-size: 1rem;
+    	margin:0 auto 14px;
+    	text-align: center;
+    	color: #075DAD;
+	}
+}
+.label_inner_slider {
+  margin: 0 0;
+}
+:root {
+  --img-width: 420px;       /* PC */
+  --img-ratio: 338 / 487;
+  --duration: 60s;          /* スクロール速度 */
+}
+
+/* ===== 共通スライダー設定 ===== */
+.slider {
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 8px;
+  margin-top: 51px;      /* 上下スライダーの間隔 */
+}
+
+.slider-track {
+  display: flex;
+  width: max-content;
+  animation: scroll var(--duration) linear infinite;
+}
+
+.slider-track img {
+  width: var(--img-width);
+  height: calc(var(--img-width) * var(--img-ratio));
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+/* ===== 上段アニメーション（右から左） ===== */
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(calc(-1 * var(--img-width) * 3)); }
+}
+
+/* ===== 下段逆方向（左から右） ===== */
+.slider.reverse .slider-track {
+  animation: scroll-reverse var(--duration) linear infinite;
+}
+
+@keyframes scroll-reverse {
+  0% { transform: translateX(calc(-1 * var(--img-width) * 3)); }
+  100% { transform: translateX(0); }
+}
+
+/* ===== レスポンシブ ===== */
+@media (max-width: 1024px) {
+  :root { --img-width: 320px; }
+}
+
+@media (max-width: 768px) {
+  :root { --img-width: 300px; }
+  
+  /* 中央寄せ感 */
+  .slider-track {
+    justify-content: center;
+    margin-top: 56px;
+  }
+  .reverse{
+  	margin-top:-39px;
+  	margin-bottom: 90px;
+  }
 }
