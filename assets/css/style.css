@@ -210,6 +210,7 @@ a:hover {
 
 	@media (max-width: 768px) {
 		flex-direction: column;
+		margin-top: 23px;
 	}
 }
 .button_solid011 a {
@@ -648,12 +649,10 @@ a[href^="tel:"] {
 
 .information__ex p:nth-of-type(1) {
 	color: #000;
-	font-size: 1.2rem;
 	text-align: left;
 
 }
 .information__ex p {
-	font-size: 1rem;
 	color: #000;
 	text-align: left;
 }
@@ -924,7 +923,6 @@ html {
 	}
 
 	.information__right p:nth-of-type(1) {
-		font-size: 1.25rem;
 	}
 
 	.information__right p:nth-of-type(2) {
@@ -933,6 +931,7 @@ html {
 
 	.information__image {
 		margin-top: 1.5625rem;
+		width: 105%;
 	}
 
 	.information__image__airfly img{
@@ -1256,4 +1255,20 @@ html {
   	margin-top:-39px;
   	margin-bottom: 90px;
   }
+}
+
+
+/* ============================
+参加賞
+=============================== */
+.print{
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    background: -webkit-repeating-linear-gradient(-45deg, #f0f8ff, #f0f8ff 3px,#e9f4ff 3px, #e9f4ff 7px);
+    background: repeating-linear-gradient(-45deg, #f0f8ff, #f0f8ff 3px,#e9f4ff 3px, #e9f4ff 7px);
+}
+.print p {
+    margin: 0; 
+    padding: 0;
+        font-size: 1.1rem;
 }
