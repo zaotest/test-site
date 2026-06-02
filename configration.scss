@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+// メディアクエリ
+$sps: "only screen and (max-width:320px)";
+$ssp: "only screen and (max-width:379px)";
+$sp: "only screen and (max-width:526px)";
+$tab: "only screen and (max-width:960px)";
+$pc: "only screen and (min-width:1600px)";
+
+//color
+$black_000: #000000;
+$white_fff: #ffffff;
+$gray_fff: #fff;
+$red_511: #802511;
+$red_e1d: #d43e1d;
+$yellow_900: #e9b900;
