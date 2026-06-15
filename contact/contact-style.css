@@ -1,0 +1,228 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+  background: #f0f6fd;
+  min-height: 100vh;
+  padding: 2rem 1rem;
+  color: #1a1a1a;
+}
+
+.page {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* ヘッダー */
+.page-hero {
+  background: #E6F1FB;
+  border-radius: 12px 12px 0 0;
+  padding: 2.5rem 2.5rem 2rem;
+  border: 0.5px solid #B5D4F4;
+  border-bottom: none;
+}
+
+.hero-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #185FA5;
+  margin-bottom: 12px;
+}
+
+.hero-eyebrow-dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #378ADD;
+  flex-shrink: 0;
+}
+
+.hero-title {
+  font-size: 28px;
+  font-weight: 600;
+  color: #042C53;
+  margin-bottom: 10px;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+}
+
+.hero-divider {
+  width: 100%;
+  height: 0.5px;
+  background: #B5D4F4;
+  margin: 4px 0 0;
+}
+
+.hero-desc {
+  font-size: 14px;
+  color: #185FA5;
+  margin-top: 14px;
+  line-height: 1.8;
+}
+
+/* フォームカード */
+.form-card {
+  background: #ffffff;
+  border: 0.5px solid #B5D4F4;
+  border-top: none;
+  border-radius: 0 0 12px 12px;
+  padding: 2rem 2.5rem 2.5rem;
+}
+
+/* 各フィールド */
+.cf-group {
+  margin-bottom: 1.25rem;
+}
+
+.cf-label-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
+.cf-label {
+  font-size: 12px;
+  font-weight: 600;
+  color: #185FA5;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.cf-badge {
+  font-size: 10px;
+  font-weight: 600;
+  color: #A32D2D;
+  background: #FCEBEB;
+  border: 0.5px solid #F09595;
+  border-radius: 6px;
+  padding: 1px 7px;
+  letter-spacing: 0.04em;
+}
+
+.cf-input,
+.cf-textarea {
+  width: 100%;
+  font-size: 15px;
+  color: #1a1a1a;
+  background: #F4F9FE;
+  border: 0.5px solid #B5D4F4;
+  border-radius: 8px;
+  padding: 11px 14px;
+  font-family: inherit;
+  outline: none;
+  transition: border-color 0.15s, box-shadow 0.15s;
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+.cf-input:focus,
+.cf-textarea:focus {
+  border-color: #378ADD;
+  box-shadow: 0 0 0 3px rgba(55, 138, 221, 0.12);
+}
+
+.cf-input.error,
+.cf-textarea.error {
+  border-color: #E24B4A;
+  box-shadow: 0 0 0 3px rgba(226, 75, 74, 0.1);
+}
+
+.cf-textarea {
+  resize: vertical;
+  min-height: 130px;
+  line-height: 1.7;
+}
+
+/* 送信ボタン */
+.cf-footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.cf-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 60%;
+  padding: 14px 0;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: inherit;
+  color: #ffffff;
+  background-color: #185FA5;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  letter-spacing: 0.04em;
+  transition: opacity 0.15s, transform 0.1s;
+}
+
+.cf-btn:hover { opacity: 0.85; }
+.cf-btn:active { transform: scale(0.98); }
+
+.cf-btn svg {
+  flex-shrink: 0;
+}
+
+/* 送信完了メッセージ */
+.cf-success {
+  display: none;
+  text-align: center;
+  padding: 3rem 0 2rem;
+}
+
+.cf-success-icon {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background: #EAF3DE;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.cf-success-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin-bottom: 8px;
+}
+
+.cf-success-msg {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.8;
+}
+
+/* スマホ対応 */
+@media (max-width: 480px) {
+  body {
+    padding: 1rem 0.75rem;
+  }
+
+  .page-hero {
+    padding: 2rem 1.25rem 1.5rem;
+  }
+
+  .hero-title {
+    font-size: 22px;
+  }
+
+  .form-card {
+    padding: 1.5rem 1.25rem 2rem;
+  }
+
+  .cf-btn {
+    width: 80%;
+    font-size: 15px;
+  }
+}
